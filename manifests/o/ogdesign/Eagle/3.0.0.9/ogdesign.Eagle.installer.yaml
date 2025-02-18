@@ -1,5 +1,5 @@
-# Created with YamlCreate.ps1 v2.1.2 $debug=QUSU.7-2-5
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
+# Created with YamlCreate.ps1 v2.4.3 $debug=AUSU.CRLF.7-4-6.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: ogdesign.Eagle
 PackageVersion: 3.0.0.9
@@ -11,6 +11,7 @@ Protocols:
 - eagle
 FileExtensions:
 - eaglepack
+ReleaseDate: 2022-07-08
 Installers:
 - Architecture: x64
   InstallerUrl: https://r2-app.eagle.cool/releases/Eagle-3.0-build7.exe
@@ -22,4 +23,4 @@ Installers:
   InstallerSha256: 73BB7A6D6528E4C1E41292D90A77AAEDF3548BD979EB33A79514C898DB3FB34E
   ProductCode: Eagle
 ManifestType: installer
-ManifestVersion: 1.1.0
+ManifestVersion: 1.9.0
